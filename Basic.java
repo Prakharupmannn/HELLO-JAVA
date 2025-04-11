@@ -82,23 +82,33 @@ public class Basic{
 
 //question no 4
 
- System.out.println("enter a character: ");
-    Scanner ch = new Scanner(System.in); 
-    char v = ch.next().charAt(0);
+//  System.out.println("enter a character: ");
+//     Scanner ch = new Scanner(System.in); 
+//     char v = ch.next().charAt(0);
 
-    switch (v) {
-        case 'a':
-        case 'e':
-        case 'i':
-        case 'o':
-        case 'u':
+//     switch (v) {
+//         case 'a':
+//         case 'e':
+//         case 'i':
+//         case 'o':
+//         case 'u':
 
-        System.out.println("its a vowel");    
-            break;
+//         System.out.println("its a vowel");    
+//             break;
     
-        default:
-        System.out.println("its a consonent");
-    }
+//         default:
+//         System.out.println("its a consonent");
+//     }
+
+//question no 5
+
+System.out.println("enter a number : ");
+Scanner in = new Scanner(System.in);
+int N = in.nextInt();
+
+for(int i=1;i<N;i++){
+    System.out.println(i);
+}
 }
 }   
 
