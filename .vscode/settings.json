@@ -1,0 +1,11 @@
+{
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "diffEditor.codeLens": true,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.inlineSuggest.edits.showCollapsed": true,
+    "editor.inlineSuggest.showToolbar": "always",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.suggest.localityBonus": true,
+    "editor.suggest.preview": true
+}
