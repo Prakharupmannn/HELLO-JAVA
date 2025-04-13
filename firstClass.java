@@ -27,10 +27,8 @@ class firstClass {
         
         //for taking full name
         //String name = sc.nextline();
-        //nextInt()
+        //nextInt() 
         //nextFloat()
-
-
 
     }
 }
