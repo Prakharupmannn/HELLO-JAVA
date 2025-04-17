@@ -23,13 +23,14 @@ public class arr {
         //     System.out.println(arr[i]);
         // }
 
-        int max = 0;
-        for (int j=0;j<n;j++) {
-            if(arr[j]>max) {
-                max=arr[j];
-            }
+        // int max = 0;
+        // for (int j=0;j<n;j++) {
+        //     if(arr[j]>max) {
+        //         max=arr[j];
+        //     }
            
-        } System.out.println( "max" + max);
+        // } System.out.println( "max" + max);
    
+        
 }
 }
