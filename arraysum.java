@@ -19,13 +19,10 @@ public class arraysum {
         //     System.out.println(sum[i]);
         // }
  
-        // if (arr1==arr2) {
-        //     System.out.println("both arrays are same");
-        // } else {
-        //     System.out.println("both are not same");
-        // }
-
-        
-    
+        if (arr1==arr2) {
+            System.out.println("both arrays are same");
+        } else {
+            System.out.println("both are not same");
+        }  
     }
 }
