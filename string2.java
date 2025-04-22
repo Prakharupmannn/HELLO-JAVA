@@ -32,9 +32,12 @@ public class string2 {
 //         }
 
         //substring
-        String sentence = "my name is tony";
-        String name = sentence.substring(3 );
-        System.out.println(name);
+        // String sentence = "my name is tony";
+        // String name = sentence.substring(3 );
+        // System.out.println(name);
+
+       
+
     }
 }
  
