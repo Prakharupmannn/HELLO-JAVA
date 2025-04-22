@@ -102,14 +102,26 @@ public class Basic{
 
 //question no 5
 
-System.out.println("enter a number : ");
-Scanner in = new Scanner(System.in);
-int N = in.nextInt();
+// System.out.println("enter a number : ");
+// Scanner in = new Scanner(System.in);
+// int N = in.nextInt();
 
-for(int i=1;i<N;i++){
-    System.out.println(i);
-}
-}
+// for(int i=1;i<N;i++){
+//     System.out.println(i);
+// }
+
+
+        int n = 1234;
+        for(int i=0;i<4;i++){ 
+            int a=n/10;
+            if(n%2==0) {
+                System.out.println("its even" + a);
+            } else{
+                System.out.println("its odd" + a);
+            }
+           n=n/10;
+        }
+    }
 }   
 
 
