@@ -1,6 +1,6 @@
 public class Stringsb {
     public static void main(String[] args) {
-        // StringBuilder sb = new StringBuilder("tony");
+        StringBuilder sb = new StringBuilder("tony");
         // System.out.println(sb);
 
         //char at index 0
@@ -27,25 +27,25 @@ public class Stringsb {
 
 
         // reverse of any name
-        // for(int i=0;i<sb.length()/2;i++){
-        //     int front = i;
-        //     int back = sb.length() - 1 - i;//5-1-0
+        for(int i=0;i<sb.length()/2;i++){
+            int front = i;
+            int back = sb.length() - 1 - i;//5-1-0
 
-        //     char frontChar = sb.charAt(front);
-        //     char backChar = sb.charAt(back);
+            char frontChar = sb.charAt(front);
+            char backChar = sb.charAt(back);
 
-        //     sb.setCharAt(front, backChar);
-        //     sb.setCharAt(back, frontChar);
+            sb.setCharAt(front, backChar);
+            sb.setCharAt(back, frontChar);
 
-        // }System.out.println(sb);
+        }System.out.println(sb);
 
 
-        String original = "hello";
-        String reversed = "";
+        // String original = "hello";
+        // String reversed = "";
 
-        for(int i=original.length()-1;i>=0;i--){
-            reversed += original.charAt(i);
-        }
-        System.out.println("reversed string: " + reversed);
+        // for(int i=original.length()-1;i>=0;i--){
+        //     reversed += original.charAt(i);
+        // }
+        // System.out.println("reversed string: " + reversed);
     }
 }
